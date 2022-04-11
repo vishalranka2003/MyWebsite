@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/ico" sizes="32x32" href="icons/favicon-32x32.ico" />
+
+    <!-- Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>My Portfolio | Vishal Ranka</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <h1>VISHAL RANKA</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+            <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+        </button>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <img src="images/me.jpg " alt="jane-doe" loading="lazy" class="hero-img" />
+        <div class="bio ">
+            <h2 class="bio-title">Hello, I'm Vishal Ranka</h2>
+            <p class="bio-text">
+                I am from Neemuch currently studying at B.M.S.College of Engineering pursuing an undergraduate degree in Information Science.
+            </p>
+        </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>
+            <!-- I am a college student pursuing my B.tech from BMS College of Engineering in Information Science Engineering (ISE). I am passionate about Graphic design and Web Design. I am currently learning front-end development and graphic design tools such as Photoshop
+            and Illustrator. I am a quick learner and a team worker that gets the job done. I am also working on languages C, C++, Python. -->
+            I am passionate about Graphic design and Web Design with pre-knowledge in languages such as C, C++, Python and currently learning front-end development and graphic designing tools such as Photoshop and Illustrator. If given an opportunity then I and would
+            like to work on the same.
+
+
+        </p>
+        <p>
+            I have been exposed to a diverse group of people and various cultures since childhood, which has made me able to quickly adapt changes and gain a broader perspective. The skills that I have gained from the dynamic environment and competitive high school
+            and college life defines me and I am looking forward to implement them in any opportunity that I receive.
+        </p>
+        <p>
+            Being a passionate individual with great documentation, interpersonal and communication skills, I can work well under pressure and make the best of any situation.
+        </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Skills</h2>
+
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <a href="https://en.wikipedia.org/wiki/HTML5" target="_main"> <img src="icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card " /></a>
+                <a href="https://en.wikipedia.org/wiki/CSS" target="_main"> <img src="icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card " /></a>
+                <a href="https://en.wikipedia.org/wiki/JavaScript" target="_main"> <img src="icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card " /></a>
+            </div>
+
+            <div class="second-set animate__animated animate__pulse">
+                <a href="https://en.wikipedia.org/wiki/Adobe_Photoshop" target="_main"> <img src="icons/icons8-adobe-photoshop.svg" alt="" loading="lazy" class="icon icon-card " /></a>
+                <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_main"> <img src="icons/icons8-c-programming.svg" alt="" loading="lazy" class="icon icon-card" /></a>
+                <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_main"> <img src="icons/icons8-python.svg" alt="" loading="lazy" class="icon icon-card " /></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Working on this projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="images/coming soon.jpg" alt="expense-tracker" loading="lazy" class="project-pic" />
+                <h3 class="project-title">Parallax website</h3>
+                <p class="project-details">
+                    Work under progress.
+                </p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="images/coming soon.jpg" alt="netflic-clone" loading="lazy" class="project-pic" />
+                <h3 class="project-title">Netflix Clone</h3>
+                <p class="project-details">
+                    Work under progress.
+                </p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="images/coming soon.jpg" alt="greeny-earth" loading="lazy" class="project-pic" />
+                <h3 class="project-title">Spotify Clone</h3>
+                <p class="project-details">
+                    Work under progress.
+                </p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <h2>Contact Form</h2>
+        <p>Any feedback regarding this website are quite appreciated.</p>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/mjvlolav" method="POST">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field" required />
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field" required />
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message" class="input-field" required></textarea>
+                    </div>
+                    <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+        <a href="https://twitter.com/VishalRanka2" target="_blank"><img src="icons/icons8-twitter-circled.gif" alt="Twitter" loading="lazy" class="socicon" /></a>
+        <a href="https://www.instagram.com/vishalranka3/" target="_blank"><img src="icons/icons8-instagram.gif" alt="Instagram" loading="lazy" class="socicon" /></a>
+        <a href="https://www.linkedin.com/in/vishal-ranka-15a79a222/" target="_blank"><img src="icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon" /></a>
+        <a href="https://github.com/vishalranka2003" target="_blank"><img src="icons/icons8-github.gif" alt="Github" class="socicon" /></a>
+    </div>
+
+    <!-- Scroll to top button -->
+    <i class="scroll-up" id="scroll-up"><img src="icons/icons8-upward-arrow.gif" class="socicon up-arrow" alt="" /></i>
+
+    <!-- Footer section -->
+    <footer>
+        <p class="copy">&copy; Copyright 2022</p>
+        <p class="copy">
+            Built by
+            <a href="https://instagram.com/vishalranka3" target="_blank">Vishal Ranka</a>
+        </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
